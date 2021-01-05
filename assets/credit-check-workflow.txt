@@ -1,0 +1,12 @@
+## Credit Check Workflow
+
+Home -> Action1???
+Action1??? -> CreditCheckForm(companyName) -> Action2???
+Action2??? -> Action1???
+Action1??? -> Home
+
+Home -> 
+set company.spendingLimit = 5000
+set company.discountPercentage = 5%
+rating = checkCredit(companyName) 
+create historyRecord(identifier, companyName, dateRequested, rating)
